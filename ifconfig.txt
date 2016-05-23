@@ -1,0 +1,28 @@
+root@debian:/home/ies# ifconfig
+docker0   Link encap:Ethernet  HWaddr 56:84:7a:fe:97:99  
+          inet addr:172.17.42.1  Bcast:0.0.0.0  Mask:255.255.0.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+eth0      Link encap:Ethernet  HWaddr 08:60:6e:68:21:92  
+          inet addr:10.1.6.80  Bcast:10.1.6.255  Mask:255.255.255.0
+          inet6 addr: fe80::a60:6eff:fe68:2192/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:23118 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:12396 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:29134674 (27.7 MiB)  TX bytes:1125793 (1.0 MiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:41 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:41 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:3950 (3.8 KiB)  TX bytes:3950 (3.8 KiB)
+
+
