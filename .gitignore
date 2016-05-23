@@ -1,0 +1,5 @@
+## Fitxers a ignorar pel Git
+
+# Fitxers de compilació
+
+*.class
